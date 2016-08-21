@@ -1,9 +1,4 @@
-import { bootstrap } from '@angular/platform-browser-dynamic';
-import { enableProdMode } from '@angular/core';
-import { Angular2Rc5AppComponent, environment } from './app/';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule }              from './app/app.module';
 
-if (environment.production) {
-  enableProdMode();
-}
-
-bootstrap(Angular2Rc5AppComponent);
+platformBrowserDynamic().bootstrapModule(AppModule);

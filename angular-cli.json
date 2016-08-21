@@ -4,7 +4,10 @@
     "name": "angular2-rc-5"
   },
   "apps": [
-    {"main": "src/main.ts", "tsconfig": "src/tsconfig.json"}
+    {
+      "main": "src/main.ts",
+      "tsconfig": "src/tsconfig.json"
+    }
   ],
   "addons": [],
   "packages": [],
@@ -20,6 +23,7 @@
   },
   "defaults": {
     "prefix": "app",
-    "sourceDir": "src"
+    "sourceDir": "src",
+    "styleExt": "scss"
   }
 }
