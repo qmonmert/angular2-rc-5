@@ -9,7 +9,7 @@ import { MdProgressCircleModule }           from '@angular2-material/progress-ci
 import { MdToolbarModule }                  from '@angular2-material/toolbar';
 
 @NgModule({     
-    exports:      [
+    exports: [
       MdButtonModule,
       MdCardModule,
       MdCheckboxModule,

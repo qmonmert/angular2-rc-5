@@ -1,6 +1,6 @@
 import { Component, OnInit }  from '@angular/core';
 
-import { MyService }          from './../shared/my-service.service';
+import { MyService }          from './../shared';
 
 @Component({
   moduleId: module.id,

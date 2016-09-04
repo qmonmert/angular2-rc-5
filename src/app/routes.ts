@@ -1,8 +1,8 @@
 import { provideRouter, RouterConfig } from '@angular/router';
 
-import { MyComponent1Component } from './my-component-1/my-component-1.component';
-import { MyComponent2Component } from './my-component-2/my-component-2.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MyComponent1Component } from './my-component-1';
+import { MyComponent2Component } from './my-component-2';
+import { PageNotFoundComponent } from './page-not-found';
 
 export const appRoutes: RouterConfig = [
 	{ path: '',             component: MyComponent1Component },

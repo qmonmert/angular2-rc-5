@@ -1,12 +1,12 @@
 import { NgModule }                 from '@angular/core';
 
-import { Angular2Rc5AppComponent }  from './angular2-rc-5.component';
-import { MyComponent1Component }    from './my-component-1/my-component-1.component';
-import { MyComponent2Component }    from './my-component-2/my-component-2.component';
-import { PageNotFoundComponent }    from './page-not-found/page-not-found.component';
+import { Angular2Rc5AppComponent }  from './';
+import { MyComponent1Component }    from './my-component-1';
+import { MyComponent2Component }    from './my-component-2';
+import { PageNotFoundComponent }    from './page-not-found';
 
-import { APP_ROUTER_PROVIDER }      from './routes';
-import { MyService }                from './shared/my-service.service';
+import { APP_ROUTER_PROVIDER }      from './';
+import { MyService }                from './';
 import { HTTP_PROVIDERS, Http }     from '@angular/http';
 
 import { BrowserModule }            from '@angular/platform-browser';
@@ -15,7 +15,7 @@ import { HttpModule }               from '@angular/http';
 import { FormsModule }              from '@angular/forms';
 import { RouterModule }             from '@angular/router';
 
-import { MaterialModule }           from './material.module';
+import { MaterialModule }           from './';
 
 @NgModule({
     declarations: [
